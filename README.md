@@ -15,7 +15,7 @@ Current testframeworks wont stand a chance. This because they are been build to 
  - A backend API project which will do all the orchestration. these endpoints will connect with AI agents to perform the job.
 
  - Some of things that this project needs to be able to do.
-   -- AI based test generation
-   -- Test healing (fixing tests automatically with alerts of source)
-   -- Test running should check UI, API, Performance aspects collectively.
-   -- Automated test executions
+ -- AI based test generation
+ -- Test healing (fixing tests automatically with alerts of source)
+ -- Test running should check UI, API, Performance aspects collectively.
+ -- Automated test executions
