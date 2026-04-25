@@ -21,6 +21,10 @@ Current test frameworks won't stand a chance. This because they are been build t
  - Test running should check UI, API, Performance aspects collectively.
  - Automated test executions
 
+### Parts of this project
+1) Test Automation Framework (Worker Module for Web, Rest, Performance Test)
+2) AI Collaborator (Collaborates with Human and Analyses the execution of Test, pipelines and data)
+3) Microservice (Used by AI to update/maintain, and execute test automation framework)
 
 # Idea from Gemini
 
