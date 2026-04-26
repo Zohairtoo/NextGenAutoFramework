@@ -4,10 +4,6 @@ import io.cucumber.spring.CucumberContextConfiguration;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @CucumberContextConfiguration
-@SpringBootTest(classes = TestAutomationApplication.class)
+@SpringBootTest(classes = TestAutomationApplication.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class SpringIntegrationTest {
-
-    // The random port Spring Boot starts on is useful for testing
-//    @LocalServerPortßß
-//    protected int port;
 }
