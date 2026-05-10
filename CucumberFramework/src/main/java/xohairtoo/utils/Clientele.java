@@ -17,7 +17,7 @@ public class Clientele {
     @Resource
     SessionProperty sessionProperty;
 
-    private final Map<String, Person> Clients = new HashMap<>();
+    private final Map<String, Client> Clients = new HashMap<>();
 
     private void initiate(){
         createClient("tesFirstName", "LastName", "tautomatorai@gmail.com");
@@ -25,7 +25,7 @@ public class Clientele {
 
     private void createClient(String firstName, String lastName, String email){
 
-        Person person = Person.builder().firstName(firstName).lastName(lastName).email(email).build();
+        Client person = Client.builder().firstName(firstName).lastName(lastName).email(email).build();
     }
 
 }

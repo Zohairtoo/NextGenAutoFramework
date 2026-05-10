@@ -3,13 +3,18 @@ package xohairtoo.stepDefinitions;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import jakarta.annotation.Resource;
 import org.springframework.context.annotation.Scope;
 import xohairtoo.SpringIntegrationTest;
+import xohairtoo.service.stepService.ProductStepService;
 
 import java.util.Map;
 
 @Scope("cucumber-glue")
 public class FakeStoreApiSteps extends SpringIntegrationTest {
+
+    @Resource
+    private ProductStepService productStepService;
 
     @Given("client navigates to fakeStoreApi")
     public void client_navigates_to_fake_store_api() {
@@ -30,6 +35,7 @@ public class FakeStoreApiSteps extends SpringIntegrationTest {
 
     @Given("client creates a new product")
     public void client_creates_a_new_product() {
+        productStepService.getListOfProducts();
         System.out.println("Executed step: client creates a new product");
     }
 

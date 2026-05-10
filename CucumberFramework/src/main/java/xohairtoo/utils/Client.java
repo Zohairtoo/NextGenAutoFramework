@@ -2,11 +2,10 @@ package xohairtoo.utils;
 
 import lombok.Builder;
 import lombok.Getter;
-import org.springframework.stereotype.Component;
 
 @Builder
 @Getter
-public class Person {
+public class Client {
 
     private String firstName;
     private String lastName;
