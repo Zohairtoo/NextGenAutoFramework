@@ -109,6 +109,9 @@
                 <configuration>
                     <suiteXmlFiles>
                         <suiteXmlFile>testng.xml</suiteXmlFile>
+<!--                        <listeners>-->
+<!--                            <listener class-name="com.citi.automation.listeners.RetryListener" />-->
+<!--                        </listeners>-->
                     </suiteXmlFiles>
                 </configuration>
                 <dependencies>

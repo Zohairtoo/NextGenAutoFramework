@@ -11,4 +11,6 @@ import org.springframework.test.context.ActiveProfiles;
 @ActiveProfiles("rest")
 public class TestRunner extends AbstractTestNGCucumberTests {
     // This class is empty, it just acts as the runner
+
+    // need to add the global retry logic with testNG
 }
