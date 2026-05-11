@@ -22,6 +22,7 @@ public class ProductCommonRequest extends AbstractCommonRequestService{
 
     public <T> JsonPath getListOfProducts(final Map<String, Object> cookie, Map<String, Object> headers, final T body){
         final JsonPath response = productRequest.getProductList(cookie, headers, body);
+        log.info(response.prettyPrint());
         return response;
     }
 }

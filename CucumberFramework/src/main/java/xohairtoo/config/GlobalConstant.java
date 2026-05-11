@@ -6,5 +6,5 @@ public class GlobalConstant {
     public static final String DOCUMENT_PATH = "./src/main/resources/testDocuments/";
 
     // FakeAPiURL
-    public static final String FAKE_STORE_API_URL = "https://fakestoreapi.com/";
+    public static final String FAKE_STORE_API_URL = "https://fakestoreapi.com";
 }

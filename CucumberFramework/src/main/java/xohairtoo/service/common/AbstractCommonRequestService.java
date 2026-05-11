@@ -11,7 +11,7 @@ import xohairtoo.platform.rest.request.fakeStoreApi.UserRequest;
 @Service
 public abstract class AbstractCommonRequestService {
 
-    private static Logger log = LoggerFactory.getLogger(AbstractCommonRequestService.class);
+    protected static Logger log = LoggerFactory.getLogger(AbstractCommonRequestService.class);
 
     @Resource
     ProductRequest productRequest;

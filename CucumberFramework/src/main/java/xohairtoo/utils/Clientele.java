@@ -2,7 +2,6 @@ package xohairtoo.utils;
 
 import jakarta.annotation.Resource;
 import lombok.Getter;
-import lombok.Setter;
 import org.springframework.stereotype.Component;
 import xohairtoo.config.SessionProperty;
 
@@ -11,7 +10,6 @@ import java.util.Map;
 
 @Component
 @Getter
-@Setter
 public class Clientele {
 
     @Resource
@@ -23,9 +21,10 @@ public class Clientele {
         createClient("tesFirstName", "LastName", "tautomatorai@gmail.com");
     }
 
-    private void createClient(String firstName, String lastName, String email){
+    private Client createClient(String firstName, String lastName, String email){
 
-        Client person = Client.builder().firstName(firstName).lastName(lastName).email(email).build();
+        Client client = Client.builder().firstName(firstName).lastName(lastName).email(email).build();
+        return client;
     }
 
 }

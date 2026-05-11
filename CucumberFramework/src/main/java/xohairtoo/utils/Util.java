@@ -27,8 +27,8 @@ public class Util {
 
     @PostConstruct
     public void withDefaultSessionContext(){
-        headerParams = getHeaderParams();
-        cookieParams = getCookieParams();
+        headerParams = headerParamsMap();
+        cookieParams = cookieParamsMap();
     }
 
     /**
