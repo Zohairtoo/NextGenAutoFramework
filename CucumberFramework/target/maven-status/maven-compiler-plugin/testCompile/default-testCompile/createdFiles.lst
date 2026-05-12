@@ -1,0 +1,7 @@
+xohairtoo/SpringIntegrationTest.class
+xohairtoo/stepDefinitions/FakeStoreApiSteps.class
+xohairtoo/stepDefinitions/TestSetup.class
+xohairtoo/TestRetry.class
+xohairtoo/TestRunner.class
+xohairtoo/listeners/TestRetryListener.class
+xohairtoo/stepDefinitions/UserRegistrationSteps.class

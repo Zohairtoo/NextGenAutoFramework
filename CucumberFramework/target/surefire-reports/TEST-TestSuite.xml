@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="2.987" tests="3" errors="0" skipped="0" failures="0" flakes="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="maven.user.extensions" value="/Users/zohairahmed/.m2/extensions.xml"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/zohairahmed/Documents/CareerAndLearning/Learning/nextGenTestAutoFramework/NextGenAutoFramework/CucumberFramework/target/test-classes:/Users/zohairahmed/Documents/CareerAndLearning/Learning/nextGenTestAutoFramework/NextGenAutoFramework/CucumberFramework/target/classes:/Users/zohairahmed/.m2/repository/org/springframework/boot/spring-boot-starter-web/4.1.0-RC1/spring-boot-starter-web-4.1.0-RC1.jar:/Users/zohairahmed/.m2/repository/org/springframework/boot/spring-boot-starter-jackson/4.1.0-RC1/spring-boot-starter-jackson-4.1.0-RC1.jar:/Users/zohairahmed/.m2/repository/org/springframework/boot/spring-boot-jackson/4.1.0-RC1/spring-boot-jackson-4.1.0-RC1.jar:/Users/zohairahmed/.m2/repository/tools/jackson/core/jackson-databind/3.1.2/jackson-databind-3.1.2.jar:/Users/zohairahmed/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.21/jackson-annotations-2.21.jar:/Users/zohairahmed/.m2/repository/tools/jackson/core/jackson-core/3.1.2/jackson-core-3.1.2.jar:/Users/zohairahmed/.m2/repository/org/springframework/boot/spring-boot-http-converter/4.1.0-RC1/spring-boot-http-converter-4.1.0-RC1.jar:/Users/zohairahmed/.m2/repository/org/springframework/boot/spring-boot/4.1.0-RC1/spring-boot-4.1.0-RC1.jar:/Users/zohairahmed/.m2/repository/org/springframework/spring-context/7.0.7/spring-context-7.0.7.jar:/Users/zohairahmed/.m2/repository/org/springframework/spring-web/7.0.7/spring-web-7.0.7.jar:/Users/zohairahmed/.m2/repository/org/springframework/spring-beans/7.0.7/spring-beans-7.0.7.jar:/Users/zohairahmed/.m2/repository/io/micrometer/micrometer-observation/1.16.5/micrometer-observation-1.16.5.jar:/Users/zohairahmed/.m2/repository/io/micrometer/micrometer-commons/1.16.5/micrometer-commons-1.16.5.jar:/Users/zohairahmed/.m2/repository/org/springframework/boot/spring-boot-webmvc/4.1.0-RC1/spring-boot-webmvc-4.1.0-RC1.jar:/Users/zohairahmed/.m2/repository/org/springframework/boot/spring-boot-servlet/4.1.0-RC1/spring-boot-servlet-4.1.0-RC1.jar:/Users/zohairahmed/.m2/repository/org/springframework/spring-webmvc/7.0.7/spring-webmvc-7.0.7.jar:/Users/zohairahmed/.m2/repository/org/springframework/spring-aop/7.0.7/spring-aop-7.0.7.jar:/Users/zohairahmed/.m2/repository/org/springframework/spring-expression/7.0.7/spring-expression-7.0.7.jar:/Users/zohairahmed/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/4.1.0-RC1/spring-boot-starter-tomcat-4.1.0-RC1.jar:/Users/zohairahmed/.m2/repository/org/springframework/boot/spring-boot-starter/4.1.0-RC1/spring-boot-starter-4.1.0-RC1.jar:/Users/zohairahmed/.m2/repository/org/springframework/boot/spring-boot-starter-logging/4.1.0-RC1/spring-boot-starter-logging-4.1.0-RC1.jar:/Users/zohairahmed/.m2/repository/ch/qos/logback/logback-classic/1.5.32/logback-classic-1.5.32.jar:/Users/zohairahmed/.m2/repository/ch/qos/logback/logback-core/1.5.32/logback-core-1.5.32.jar:/Users/zohairahmed/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.25.4/log4j-to-slf4j-2.25.4.jar:/Users/zohairahmed/.m2/repository/org/apache/logging/log4j/log4j-api/2.25.4/log4j-api-2.25.4.jar:/Users/zohairahmed/.m2/repository/org/slf4j/jul-to-slf4j/2.0.17/jul-to-slf4j-2.0.17.jar:/Users/zohairahmed/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/4.1.0-RC1/spring-boot-autoconfigure-4.1.0-RC1.jar:/Users/zohairahmed/.m2/repository/jakarta/annotation/jakarta.annotation-api/3.0.0/jakarta.annotation-api-3.0.0.jar:/Users/zohairahmed/.m2/repository/org/yaml/snakeyaml/2.6/snakeyaml-2.6.jar:/Users/zohairahmed/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat-runtime/4.1.0-RC1/spring-boot-starter-tomcat-runtime-4.1.0-RC1.jar:/Users/zohairahmed/.m2/repository/org/springframework/boot/spring-boot-web-server/4.1.0-RC1/spring-boot-web-server-4.1.0-RC1.jar:/Users/zohairahmed/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/11.0.21/tomcat-embed-core-11.0.21.jar:/Users/zohairahmed/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/11.0.21/tomcat-embed-el-11.0.21.jar:/Users/zohairahmed/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/11.0.21/tomcat-embed-websocket-11.0.21.jar:/Users/zohairahmed/.m2/repository/org/springframework/boot/spring-boot-tomcat/4.1.0-RC1/spring-boot-tomcat-4.1.0-RC1.jar:/Users/zohairahmed/.m2/repository/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar:/Users/zohairahmed/.m2/repository/org/springframework/boot/spring-boot-starter-test/4.1.0-RC1/spring-boot-starter-test-4.1.0-RC1.jar:/Users/zohairahmed/.m2/repository/org/springframework/boot/spring-boot-test/4.1.0-RC1/spring-boot-test-4.1.0-RC1.jar:/Users/zohairahmed/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/4.1.0-RC1/spring-boot-test-autoconfigure-4.1.0-RC1.jar:/Users/zohairahmed/.m2/repository/com/jayway/jsonpath/json-path/2.10.0/json-path-2.10.0.jar:/Users/zohairahmed/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/Users/zohairahmed/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.4/jakarta.xml.bind-api-4.0.4.jar:/Users/zohairahmed/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.4/jakarta.activation-api-2.1.4.jar:/Users/zohairahmed/.m2/repository/net/minidev/json-smart/2.6.0/json-smart-2.6.0.jar:/Users/zohairahmed/.m2/repository/net/minidev/accessors-smart/2.6.0/accessors-smart-2.6.0.jar:/Users/zohairahmed/.m2/repository/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar:/Users/zohairahmed/.m2/repository/org/assertj/assertj-core/3.27.7/assertj-core-3.27.7.jar:/Users/zohairahmed/.m2/repository/net/bytebuddy/byte-buddy/1.18.3/byte-buddy-1.18.3.jar:/Users/zohairahmed/.m2/repository/org/awaitility/awaitility/4.3.0/awaitility-4.3.0.jar:/Users/zohairahmed/.m2/repository/org/hamcrest/hamcrest/3.0/hamcrest-3.0.jar:/Users/zohairahmed/.m2/repository/org/junit/jupiter/junit-jupiter/6.0.3/junit-jupiter-6.0.3.jar:/Users/zohairahmed/.m2/repository/org/junit/jupiter/junit-jupiter-api/6.0.3/junit-jupiter-api-6.0.3.jar:/Users/zohairahmed/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/zohairahmed/.m2/repository/org/junit/platform/junit-platform-commons/6.0.3/junit-platform-commons-6.0.3.jar:/Users/zohairahmed/.m2/repository/org/junit/jupiter/junit-jupiter-params/6.0.3/junit-jupiter-params-6.0.3.jar:/Users/zohairahmed/.m2/repository/org/junit/jupiter/junit-jupiter-engine/6.0.3/junit-jupiter-engine-6.0.3.jar:/Users/zohairahmed/.m2/repository/org/junit/platform/junit-platform-engine/6.0.3/junit-platform-engine-6.0.3.jar:/Users/zohairahmed/.m2/repository/org/mockito/mockito-core/5.23.0/mockito-core-5.23.0.jar:/Users/zohairahmed/.m2/repository/net/bytebuddy/byte-buddy-agent/1.17.7/byte-buddy-agent-1.17.7.jar:/Users/zohairahmed/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/zohairahmed/.m2/repository/org/mockito/mockito-junit-jupiter/5.23.0/mockito-junit-jupiter-5.23.0.jar:/Users/zohairahmed/.m2/repository/org/skyscreamer/jsonassert/1.5.3/jsonassert-1.5.3.jar:/Users/zohairahmed/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/Users/zohairahmed/.m2/repository/org/springframework/spring-core/7.0.7/spring-core-7.0.7.jar:/Users/zohairahmed/.m2/repository/commons-logging/commons-logging/1.3.5/commons-logging-1.3.5.jar:/Users/zohairahmed/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/zohairahmed/.m2/repository/org/springframework/spring-test/7.0.7/spring-test-7.0.7.jar:/Users/zohairahmed/.m2/repository/org/xmlunit/xmlunit-core/2.11.0/xmlunit-core-2.11.0.jar:/Users/zohairahmed/.m2/repository/io/rest-assured/rest-assured/6.0.0/rest-assured-6.0.0.jar:/Users/zohairahmed/.m2/repository/org/apache/groovy/groovy/5.0.3/groovy-5.0.3.jar:/Users/zohairahmed/.m2/repository/org/apache/groovy/groovy-xml/5.0.3/groovy-xml-5.0.3.jar:/Users/zohairahmed/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/zohairahmed/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/zohairahmed/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/zohairahmed/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/zohairahmed/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/zohairahmed/.m2/repository/io/rest-assured/json-path/6.0.0/json-path-6.0.0.jar:/Users/zohairahmed/.m2/repository/org/apache/groovy/groovy-json/5.0.3/groovy-json-5.0.3.jar:/Users/zohairahmed/.m2/repository/io/rest-assured/rest-assured-common/6.0.0/rest-assured-common-6.0.0.jar:/Users/zohairahmed/.m2/repository/io/rest-assured/xml-path/6.0.0/xml-path-6.0.0.jar:/Users/zohairahmed/.m2/repository/org/apache/commons/commons-lang3/3.19.0/commons-lang3-3.19.0.jar:/Users/zohairahmed/.m2/repository/io/cucumber/cucumber-java/7.34.3/cucumber-java-7.34.3.jar:/Users/zohairahmed/.m2/repository/io/cucumber/cucumber-core/7.34.3/cucumber-core-7.34.3.jar:/Users/zohairahmed/.m2/repository/io/cucumber/cucumber-gherkin/7.34.3/cucumber-gherkin-7.34.3.jar:/Users/zohairahmed/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.34.3/cucumber-gherkin-messages-7.34.3.jar:/Users/zohairahmed/.m2/repository/io/cucumber/gherkin/36.1.0/gherkin-36.1.0.jar:/Users/zohairahmed/.m2/repository/io/cucumber/messages/30.1.0/messages-30.1.0.jar:/Users/zohairahmed/.m2/repository/io/cucumber/messages-ndjson/0.3.2/messages-ndjson-0.3.2.jar:/Users/zohairahmed/.m2/repository/io/cucumber/pretty-formatter/2.4.1/pretty-formatter-2.4.1.jar:/Users/zohairahmed/.m2/repository/io/cucumber/query/14.7.0/query-14.7.0.jar:/Users/zohairahmed/.m2/repository/io/cucumber/teamcity-formatter/0.2.0/teamcity-formatter-0.2.0.jar:/Users/zohairahmed/.m2/repository/io/cucumber/testng-xml-formatter/0.7.0/testng-xml-formatter-0.7.0.jar:/Users/zohairahmed/.m2/repository/io/cucumber/usage-formatter/0.1.0/usage-formatter-0.1.0.jar:/Users/zohairahmed/.m2/repository/io/cucumber/tag-expressions/8.1.0/tag-expressions-8.1.0.jar:/Users/zohairahmed/.m2/repository/io/cucumber/cucumber-expressions/18.1.0/cucumber-expressions-18.1.0.jar:/Users/zohairahmed/.m2/repository/io/cucumber/cucumber-json-formatter/0.3.2/cucumber-json-formatter-0.3.2.jar:/Users/zohairahmed/.m2/repository/io/cucumber/datatable/7.34.3/datatable-7.34.3.jar:/Users/zohairahmed/.m2/repository/io/cucumber/cucumber-plugin/7.34.3/cucumber-plugin-7.34.3.jar:/Users/zohairahmed/.m2/repository/io/cucumber/docstring/7.34.3/docstring-7.34.3.jar:/Users/zohairahmed/.m2/repository/io/cucumber/html-formatter/22.3.0/html-formatter-22.3.0.jar:/Users/zohairahmed/.m2/repository/io/cucumber/junit-xml-formatter/0.11.0/junit-xml-formatter-0.11.0.jar:/Users/zohairahmed/.m2/repository/io/cucumber/ci-environment/12.0.0/ci-environment-12.0.0.jar:/Users/zohairahmed/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/zohairahmed/.m2/repository/io/cucumber/cucumber-spring/7.34.3/cucumber-spring-7.34.3.jar:/Users/zohairahmed/.m2/repository/com/google/code/gson/gson/2.14.0/gson-2.14.0.jar:/Users/zohairahmed/.m2/repository/com/google/errorprone/error_prone_annotations/2.48.0/error_prone_annotations-2.48.0.jar:/Users/zohairahmed/.m2/repository/io/cucumber/cucumber-testng/7.14.0/cucumber-testng-7.14.0.jar:/Users/zohairahmed/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/zohairahmed/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/zohairahmed/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="maven.user.toolchains" value="/Users/zohairahmed/.m2/toolchains.xml"/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="catalina.useNaming" value="false"/>
+    <property name="user.timezone" value="America/Toronto"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="maven.repo.central" value="https://repo.maven.apache.org/maven2"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="session.topDirectory" value="/Users/zohairahmed/Documents/CareerAndLearning/Learning/nextGenTestAutoFramework/NextGenAutoFramework/CucumberFramework"/>
+    <property name="sun.boot.library.path" value="/Users/zohairahmed/.sdkman/candidates/java/25.0.3-amzn/lib"/>
+    <property name="sun.java.command" value="/Users/zohairahmed/Documents/CareerAndLearning/Learning/nextGenTestAutoFramework/NextGenAutoFramework/CucumberFramework/target/surefire/surefirebooter-20260512175006593_3.jar /Users/zohairahmed/Documents/CareerAndLearning/Learning/nextGenTestAutoFramework/NextGenAutoFramework/CucumberFramework/target/surefire 2026-05-12T17-50-06_501-jvmRun1 surefire-20260512175006593_1tmp surefire_0-20260512175006593_2tmp"/>
+    <property name="maven.project.settings" value="/Users/zohairahmed/Documents/CareerAndLearning/Learning/nextGenTestAutoFramework/NextGenAutoFramework/CucumberFramework/.mvn/settings.xml"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/zohairahmed/Documents/CareerAndLearning/Learning/nextGenTestAutoFramework/NextGenAutoFramework/CucumberFramework/target/test-classes:/Users/zohairahmed/Documents/CareerAndLearning/Learning/nextGenTestAutoFramework/NextGenAutoFramework/CucumberFramework/target/classes:/Users/zohairahmed/.m2/repository/org/springframework/boot/spring-boot-starter-web/4.1.0-RC1/spring-boot-starter-web-4.1.0-RC1.jar:/Users/zohairahmed/.m2/repository/org/springframework/boot/spring-boot-starter-jackson/4.1.0-RC1/spring-boot-starter-jackson-4.1.0-RC1.jar:/Users/zohairahmed/.m2/repository/org/springframework/boot/spring-boot-jackson/4.1.0-RC1/spring-boot-jackson-4.1.0-RC1.jar:/Users/zohairahmed/.m2/repository/tools/jackson/core/jackson-databind/3.1.2/jackson-databind-3.1.2.jar:/Users/zohairahmed/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.21/jackson-annotations-2.21.jar:/Users/zohairahmed/.m2/repository/tools/jackson/core/jackson-core/3.1.2/jackson-core-3.1.2.jar:/Users/zohairahmed/.m2/repository/org/springframework/boot/spring-boot-http-converter/4.1.0-RC1/spring-boot-http-converter-4.1.0-RC1.jar:/Users/zohairahmed/.m2/repository/org/springframework/boot/spring-boot/4.1.0-RC1/spring-boot-4.1.0-RC1.jar:/Users/zohairahmed/.m2/repository/org/springframework/spring-context/7.0.7/spring-context-7.0.7.jar:/Users/zohairahmed/.m2/repository/org/springframework/spring-web/7.0.7/spring-web-7.0.7.jar:/Users/zohairahmed/.m2/repository/org/springframework/spring-beans/7.0.7/spring-beans-7.0.7.jar:/Users/zohairahmed/.m2/repository/io/micrometer/micrometer-observation/1.16.5/micrometer-observation-1.16.5.jar:/Users/zohairahmed/.m2/repository/io/micrometer/micrometer-commons/1.16.5/micrometer-commons-1.16.5.jar:/Users/zohairahmed/.m2/repository/org/springframework/boot/spring-boot-webmvc/4.1.0-RC1/spring-boot-webmvc-4.1.0-RC1.jar:/Users/zohairahmed/.m2/repository/org/springframework/boot/spring-boot-servlet/4.1.0-RC1/spring-boot-servlet-4.1.0-RC1.jar:/Users/zohairahmed/.m2/repository/org/springframework/spring-webmvc/7.0.7/spring-webmvc-7.0.7.jar:/Users/zohairahmed/.m2/repository/org/springframework/spring-aop/7.0.7/spring-aop-7.0.7.jar:/Users/zohairahmed/.m2/repository/org/springframework/spring-expression/7.0.7/spring-expression-7.0.7.jar:/Users/zohairahmed/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/4.1.0-RC1/spring-boot-starter-tomcat-4.1.0-RC1.jar:/Users/zohairahmed/.m2/repository/org/springframework/boot/spring-boot-starter/4.1.0-RC1/spring-boot-starter-4.1.0-RC1.jar:/Users/zohairahmed/.m2/repository/org/springframework/boot/spring-boot-starter-logging/4.1.0-RC1/spring-boot-starter-logging-4.1.0-RC1.jar:/Users/zohairahmed/.m2/repository/ch/qos/logback/logback-classic/1.5.32/logback-classic-1.5.32.jar:/Users/zohairahmed/.m2/repository/ch/qos/logback/logback-core/1.5.32/logback-core-1.5.32.jar:/Users/zohairahmed/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.25.4/log4j-to-slf4j-2.25.4.jar:/Users/zohairahmed/.m2/repository/org/apache/logging/log4j/log4j-api/2.25.4/log4j-api-2.25.4.jar:/Users/zohairahmed/.m2/repository/org/slf4j/jul-to-slf4j/2.0.17/jul-to-slf4j-2.0.17.jar:/Users/zohairahmed/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/4.1.0-RC1/spring-boot-autoconfigure-4.1.0-RC1.jar:/Users/zohairahmed/.m2/repository/jakarta/annotation/jakarta.annotation-api/3.0.0/jakarta.annotation-api-3.0.0.jar:/Users/zohairahmed/.m2/repository/org/yaml/snakeyaml/2.6/snakeyaml-2.6.jar:/Users/zohairahmed/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat-runtime/4.1.0-RC1/spring-boot-starter-tomcat-runtime-4.1.0-RC1.jar:/Users/zohairahmed/.m2/repository/org/springframework/boot/spring-boot-web-server/4.1.0-RC1/spring-boot-web-server-4.1.0-RC1.jar:/Users/zohairahmed/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/11.0.21/tomcat-embed-core-11.0.21.jar:/Users/zohairahmed/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/11.0.21/tomcat-embed-el-11.0.21.jar:/Users/zohairahmed/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/11.0.21/tomcat-embed-websocket-11.0.21.jar:/Users/zohairahmed/.m2/repository/org/springframework/boot/spring-boot-tomcat/4.1.0-RC1/spring-boot-tomcat-4.1.0-RC1.jar:/Users/zohairahmed/.m2/repository/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar:/Users/zohairahmed/.m2/repository/org/springframework/boot/spring-boot-starter-test/4.1.0-RC1/spring-boot-starter-test-4.1.0-RC1.jar:/Users/zohairahmed/.m2/repository/org/springframework/boot/spring-boot-test/4.1.0-RC1/spring-boot-test-4.1.0-RC1.jar:/Users/zohairahmed/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/4.1.0-RC1/spring-boot-test-autoconfigure-4.1.0-RC1.jar:/Users/zohairahmed/.m2/repository/com/jayway/jsonpath/json-path/2.10.0/json-path-2.10.0.jar:/Users/zohairahmed/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/Users/zohairahmed/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.4/jakarta.xml.bind-api-4.0.4.jar:/Users/zohairahmed/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.4/jakarta.activation-api-2.1.4.jar:/Users/zohairahmed/.m2/repository/net/minidev/json-smart/2.6.0/json-smart-2.6.0.jar:/Users/zohairahmed/.m2/repository/net/minidev/accessors-smart/2.6.0/accessors-smart-2.6.0.jar:/Users/zohairahmed/.m2/repository/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar:/Users/zohairahmed/.m2/repository/org/assertj/assertj-core/3.27.7/assertj-core-3.27.7.jar:/Users/zohairahmed/.m2/repository/net/bytebuddy/byte-buddy/1.18.3/byte-buddy-1.18.3.jar:/Users/zohairahmed/.m2/repository/org/awaitility/awaitility/4.3.0/awaitility-4.3.0.jar:/Users/zohairahmed/.m2/repository/org/hamcrest/hamcrest/3.0/hamcrest-3.0.jar:/Users/zohairahmed/.m2/repository/org/junit/jupiter/junit-jupiter/6.0.3/junit-jupiter-6.0.3.jar:/Users/zohairahmed/.m2/repository/org/junit/jupiter/junit-jupiter-api/6.0.3/junit-jupiter-api-6.0.3.jar:/Users/zohairahmed/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/zohairahmed/.m2/repository/org/junit/platform/junit-platform-commons/6.0.3/junit-platform-commons-6.0.3.jar:/Users/zohairahmed/.m2/repository/org/junit/jupiter/junit-jupiter-params/6.0.3/junit-jupiter-params-6.0.3.jar:/Users/zohairahmed/.m2/repository/org/junit/jupiter/junit-jupiter-engine/6.0.3/junit-jupiter-engine-6.0.3.jar:/Users/zohairahmed/.m2/repository/org/junit/platform/junit-platform-engine/6.0.3/junit-platform-engine-6.0.3.jar:/Users/zohairahmed/.m2/repository/org/mockito/mockito-core/5.23.0/mockito-core-5.23.0.jar:/Users/zohairahmed/.m2/repository/net/bytebuddy/byte-buddy-agent/1.17.7/byte-buddy-agent-1.17.7.jar:/Users/zohairahmed/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/zohairahmed/.m2/repository/org/mockito/mockito-junit-jupiter/5.23.0/mockito-junit-jupiter-5.23.0.jar:/Users/zohairahmed/.m2/repository/org/skyscreamer/jsonassert/1.5.3/jsonassert-1.5.3.jar:/Users/zohairahmed/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/Users/zohairahmed/.m2/repository/org/springframework/spring-core/7.0.7/spring-core-7.0.7.jar:/Users/zohairahmed/.m2/repository/commons-logging/commons-logging/1.3.5/commons-logging-1.3.5.jar:/Users/zohairahmed/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/zohairahmed/.m2/repository/org/springframework/spring-test/7.0.7/spring-test-7.0.7.jar:/Users/zohairahmed/.m2/repository/org/xmlunit/xmlunit-core/2.11.0/xmlunit-core-2.11.0.jar:/Users/zohairahmed/.m2/repository/io/rest-assured/rest-assured/6.0.0/rest-assured-6.0.0.jar:/Users/zohairahmed/.m2/repository/org/apache/groovy/groovy/5.0.3/groovy-5.0.3.jar:/Users/zohairahmed/.m2/repository/org/apache/groovy/groovy-xml/5.0.3/groovy-xml-5.0.3.jar:/Users/zohairahmed/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/zohairahmed/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/zohairahmed/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/zohairahmed/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/zohairahmed/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/zohairahmed/.m2/repository/io/rest-assured/json-path/6.0.0/json-path-6.0.0.jar:/Users/zohairahmed/.m2/repository/org/apache/groovy/groovy-json/5.0.3/groovy-json-5.0.3.jar:/Users/zohairahmed/.m2/repository/io/rest-assured/rest-assured-common/6.0.0/rest-assured-common-6.0.0.jar:/Users/zohairahmed/.m2/repository/io/rest-assured/xml-path/6.0.0/xml-path-6.0.0.jar:/Users/zohairahmed/.m2/repository/org/apache/commons/commons-lang3/3.19.0/commons-lang3-3.19.0.jar:/Users/zohairahmed/.m2/repository/io/cucumber/cucumber-java/7.34.3/cucumber-java-7.34.3.jar:/Users/zohairahmed/.m2/repository/io/cucumber/cucumber-core/7.34.3/cucumber-core-7.34.3.jar:/Users/zohairahmed/.m2/repository/io/cucumber/cucumber-gherkin/7.34.3/cucumber-gherkin-7.34.3.jar:/Users/zohairahmed/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.34.3/cucumber-gherkin-messages-7.34.3.jar:/Users/zohairahmed/.m2/repository/io/cucumber/gherkin/36.1.0/gherkin-36.1.0.jar:/Users/zohairahmed/.m2/repository/io/cucumber/messages/30.1.0/messages-30.1.0.jar:/Users/zohairahmed/.m2/repository/io/cucumber/messages-ndjson/0.3.2/messages-ndjson-0.3.2.jar:/Users/zohairahmed/.m2/repository/io/cucumber/pretty-formatter/2.4.1/pretty-formatter-2.4.1.jar:/Users/zohairahmed/.m2/repository/io/cucumber/query/14.7.0/query-14.7.0.jar:/Users/zohairahmed/.m2/repository/io/cucumber/teamcity-formatter/0.2.0/teamcity-formatter-0.2.0.jar:/Users/zohairahmed/.m2/repository/io/cucumber/testng-xml-formatter/0.7.0/testng-xml-formatter-0.7.0.jar:/Users/zohairahmed/.m2/repository/io/cucumber/usage-formatter/0.1.0/usage-formatter-0.1.0.jar:/Users/zohairahmed/.m2/repository/io/cucumber/tag-expressions/8.1.0/tag-expressions-8.1.0.jar:/Users/zohairahmed/.m2/repository/io/cucumber/cucumber-expressions/18.1.0/cucumber-expressions-18.1.0.jar:/Users/zohairahmed/.m2/repository/io/cucumber/cucumber-json-formatter/0.3.2/cucumber-json-formatter-0.3.2.jar:/Users/zohairahmed/.m2/repository/io/cucumber/datatable/7.34.3/datatable-7.34.3.jar:/Users/zohairahmed/.m2/repository/io/cucumber/cucumber-plugin/7.34.3/cucumber-plugin-7.34.3.jar:/Users/zohairahmed/.m2/repository/io/cucumber/docstring/7.34.3/docstring-7.34.3.jar:/Users/zohairahmed/.m2/repository/io/cucumber/html-formatter/22.3.0/html-formatter-22.3.0.jar:/Users/zohairahmed/.m2/repository/io/cucumber/junit-xml-formatter/0.11.0/junit-xml-formatter-0.11.0.jar:/Users/zohairahmed/.m2/repository/io/cucumber/ci-environment/12.0.0/ci-environment-12.0.0.jar:/Users/zohairahmed/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/zohairahmed/.m2/repository/io/cucumber/cucumber-spring/7.34.3/cucumber-spring-7.34.3.jar:/Users/zohairahmed/.m2/repository/com/google/code/gson/gson/2.14.0/gson-2.14.0.jar:/Users/zohairahmed/.m2/repository/com/google/errorprone/error_prone_annotations/2.48.0/error_prone_annotations-2.48.0.jar:/Users/zohairahmed/.m2/repository/io/cucumber/cucumber-testng/7.14.0/cucumber-testng-7.14.0.jar:/Users/zohairahmed/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/zohairahmed/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/zohairahmed/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/zohairahmed"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-04-21"/>
+    <property name="java.home" value="/Users/zohairahmed/.sdkman/candidates/java/25.0.3-amzn"/>
+    <property name="maven.user.conf" value="/Users/zohairahmed/.m2"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/zohairahmed/Documents/CareerAndLearning/Learning/nextGenTestAutoFramework/NextGenAutoFramework/CucumberFramework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="FILE_LOG_CHARSET" value="UTF-8"/>
+    <property name="java.awt.headless" value="true"/>
+    <property name="maven.project.conf" value="/Users/zohairahmed/Documents/CareerAndLearning/Learning/nextGenTestAutoFramework/NextGenAutoFramework/CucumberFramework/.mvn"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/zohairahmed/Documents/CareerAndLearning/Learning/nextGenTestAutoFramework/NextGenAutoFramework/CucumberFramework/target/surefire/surefirebooter-20260512175006593_3.jar"/>
+    <property name="session.rootDirectory" value="/Users/zohairahmed/Documents/CareerAndLearning/Learning/nextGenTestAutoFramework/NextGenAutoFramework/CucumberFramework"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="25.0.3+9-LTS"/>
+    <property name="user.name" value="zohairahmed"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="maven.installation.conf" value="/Users/zohairahmed/.sdkman/candidates/maven/4.0.0-rc-4/conf"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.4.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="maven.installation.toolchains" value="/Users/zohairahmed/.sdkman/candidates/maven/4.0.0-rc-4/conf/toolchains.xml"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-25.0.3.9.1"/>
+    <property name="localRepository" value="/Users/zohairahmed/.m2/repository"/>
+    <property name="maven.project.extensions" value="/Users/zohairahmed/Documents/CareerAndLearning/Learning/nextGenTestAutoFramework/NextGenAutoFramework/CucumberFramework/.mvn/extensions.xml"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-25/issues/"/>
+    <property name="java.io.tmpdir" value="/var/folders/jy/289jtcs13fnd53mq1bf7zd2c0000gn/T/"/>
+    <property name="maven.installation.extensions" value="/Users/zohairahmed/.sdkman/candidates/maven/4.0.0-rc-4/conf/extensions.xml"/>
+    <property name="catalina.home" value="/private/var/folders/jy/289jtcs13fnd53mq1bf7zd2c0000gn/T/tomcat.0.10760056473923278560"/>
+    <property name="java.version" value="25.0.3"/>
+    <property name="user.dir" value="/Users/zohairahmed/Documents/CareerAndLearning/Learning/nextGenTestAutoFramework/NextGenAutoFramework/CucumberFramework"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PID" value="7712"/>
+    <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
+    <property name="catalina.base" value="/private/var/folders/jy/289jtcs13fnd53mq1bf7zd2c0000gn/T/tomcat.0.10760056473923278560"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/zohairahmed/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="25.0.3+9-LTS"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="maven.installation.settings" value="/Users/zohairahmed/.sdkman/candidates/maven/4.0.0-rc-4/conf/settings.xml"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="maven.user.settings" value="/Users/zohairahmed/.m2/settings.xml"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Navigate to fakeStoreApi and create a user&quot;, &quot;Fake Store API play&quot;](1)" classname="xohairtoo.TestRunner" time="1.433">
+    <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::            (v4.1.0-RC1)
+
+2026-05-12T17:50:07.589-04:00  INFO 7712 --- [           main] xohairtoo.SpringIntegrationTest          : Starting SpringIntegrationTest using Java 25.0.3 with PID 7712 (/Users/zohairahmed/Documents/CareerAndLearning/Learning/nextGenTestAutoFramework/NextGenAutoFramework/CucumberFramework/target/test-classes started by zohairahmed in /Users/zohairahmed/Documents/CareerAndLearning/Learning/nextGenTestAutoFramework/NextGenAutoFramework/CucumberFramework)
+2026-05-12T17:50:07.591-04:00  INFO 7712 --- [           main] xohairtoo.SpringIntegrationTest          : The following 1 profile is active: "rest"
+2026-05-12T17:50:08.074-04:00  INFO 7712 --- [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 0 (http)
+2026-05-12T17:50:08.082-04:00  INFO 7712 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-12T17:50:08.082-04:00  INFO 7712 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-12T17:50:08.102-04:00  INFO 7712 --- [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 373 ms
+2026-05-12T17:50:08.286-04:00  INFO 7712 --- [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 56078 (http) with context path '/'
+2026-05-12T17:50:08.289-04:00  INFO 7712 --- [           main] xohairtoo.SpringIntegrationTest          : Started SpringIntegrationTest in 0.863 seconds (process running for 1.639)
+
+@DemoAPITest @FakeStoreAPI
+&amp#27;[1mScenario:&amp#27;[22m Navigate to fakeStoreApi and create a user &amp#27;[90m# src/test/resources/features/FakeStoreApi.feature:4&amp#27;[39m
+This the @Before setup step getting executed
+2026-05-12T17:50:08.718-04:00  INFO 7712 --- [           main] xohairtoo.stepDefinitions.TestSetup      : This the @Before setup step getting executed
+Executed step: client navigates to fakeStoreApi
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mclient navigates to fakeStoreApi&amp#27;[39m           &amp#27;[90m# xohairtoo.stepDefinitions.FakeStoreApiSteps.client_navigates_to_fake_store_api()&amp#27;[39m
+Executed step: client creates a new user
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mclient creates a new user&amp#27;[39m                   &amp#27;[90m# xohairtoo.stepDefinitions.FakeStoreApiSteps.client_creates_a_new_user(java.util.Map)&amp#27;[39m
+      | email            | password     |
+      | test@example.com | SecurePwd123 |
+Executed step: client is successfully added
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mclient is successfully added&amp#27;[39m                &amp#27;[90m# xohairtoo.stepDefinitions.FakeStoreApiSteps.clientIsSuccessfullyAdded()&amp#27;[39m
+This the @After setup step getting executed
+2026-05-12T17:50:08.725-04:00  INFO 7712 --- [           main] xohairtoo.stepDefinitions.TestSetup      : This the @After setup step getting executed
+]]></system-out>
+    <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (/Users/zohairahmed/.m2/repository/net/bytebuddy/byte-buddy-agent/1.17.7/byte-buddy-agent-1.17.7.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Navigate to fakeStoreApi and create a new product&quot;, &quot;Fake Store API play&quot;](2)" classname="xohairtoo.TestRunner" time="0.977">
+    <system-out><![CDATA[
+@DemoAPITest @FakeStoreAPI
+&amp#27;[1mScenario:&amp#27;[22m Navigate to fakeStoreApi and create a new product &amp#27;[90m# src/test/resources/features/FakeStoreApi.feature:12&amp#27;[39m
+This the @Before setup step getting executed
+2026-05-12T17:50:08.739-04:00  INFO 7712 --- [           main] xohairtoo.stepDefinitions.TestSetup      : This the @Before setup step getting executed
+Executed step: client navigates to fakeStoreApi
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mclient navigates to fakeStoreApi&amp#27;[39m                  &amp#27;[90m# xohairtoo.stepDefinitions.FakeStoreApiSteps.client_navigates_to_fake_store_api()&amp#27;[39m
+Executed step: client logs in with user_pass
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mclient logs in with user_pass&amp#27;[39m                      &amp#27;[90m# xohairtoo.stepDefinitions.FakeStoreApiSteps.client_logs_in_with_user_pass()&amp#27;[39m
+Request method:	GET
+Request URI:	https://fakestoreapi.com/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 12 May 2026 21:50:09 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-origin: *
+etag: W/"2990-lZ2o94A2EDKiYW3/6/3oI74HHkw"
+x-powered-by: Express
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=yzUQYwAdLCPReA47tVxrBE46lvog9Dn3LQpeAOiOgWKI0rxYv4HmobDOPoq4WnVAvLp5WbHz7uCDRpVnAgWDfj4n2jKGgd6VWo%2BbTgrZc9zaa%2B9GTksF8hjVdQs1EAA%2BZNI4"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 9faca32e18ae71ff-YYZ
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "id": 1,
+        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "price": 109.95,
+        "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 2,
+        "title": "Mens Casual Premium Slim Fit T-Shirts ",
+        "price": 22.3,
+        "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_t.png",
+        "rating": {
+            "rate": 4.1,
+            "count": 259
+        }
+    },
+    {
+        "id": 3,
+        "title": "Mens Cotton Jacket",
+        "price": 55.99,
+        "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_t.png",
+        "rating": {
+            "rate": 4.7,
+            "count": 500
+        }
+    },
+    {
+        "id": 4,
+        "title": "Mens Casual Slim Fit",
+        "price": 15.99,
+        "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_t.png",
+        "rating": {
+            "rate": 2.1,
+            "count": 430
+        }
+    },
+    {
+        "id": 5,
+        "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+        "price": 695,
+        "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_t.png",
+        "rating": {
+            "rate": 4.6,
+            "count": 400
+        }
+    },
+    {
+        "id": 6,
+        "title": "Solid Gold Petite Micropave ",
+        "price": 168,
+        "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_t.png",
+        "rating": {
+            "rate": 3.9,
+            "count": 70
+        }
+    },
+    {
+        "id": 7,
+        "title": "White Gold Plated Princess",
+        "price": 9.99,
+        "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_t.png",
+        "rating": {
+            "rate": 3,
+            "count": 400
+        }
+    },
+    {
+        "id": 8,
+        "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+        "price": 10.99,
+        "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_t.png",
+        "rating": {
+            "rate": 1.9,
+            "count": 100
+        }
+    },
+    {
+        "id": 9,
+        "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
+        "price": 64,
+        "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_t.png",
+        "rating": {
+            "rate": 3.3,
+            "count": 203
+        }
+    },
+    {
+        "id": 10,
+        "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+        "price": 109,
+        "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_t.png",
+        "rating": {
+            "rate": 2.9,
+            "count": 470
+        }
+    },
+    {
+        "id": 11,
+        "title": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
+        "price": 109,
+        "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_t.png",
+        "rating": {
+            "rate": 4.8,
+            "count": 319
+        }
+    },
+    {
+        "id": 12,
+        "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+        "price": 114,
+        "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_t.png",
+        "rating": {
+            "rate": 4.8,
+            "count": 400
+        }
+    },
+    {
+        "id": 13,
+        "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+        "price": 599,
+        "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_t.png",
+        "rating": {
+            "rate": 2.9,
+            "count": 250
+        }
+    },
+    {
+        "id": 14,
+        "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
+        "price": 999.99,
+        "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_t.png",
+        "rating": {
+            "rate": 2.2,
+            "count": 140
+        }
+    },
+    {
+        "id": 15,
+        "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+        "price": 56.99,
+        "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_t.png",
+        "rating": {
+            "rate": 2.6,
+            "count": 235
+        }
+    },
+    {
+        "id": 16,
+        "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+        "price": 29.95,
+        "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_t.png",
+        "rating": {
+            "rate": 2.9,
+            "count": 340
+        }
+    },
+    {
+        "id": 17,
+        "title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
+        "price": 39.99,
+        "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2t.png",
+        "rating": {
+            "rate": 3.8,
+            "count": 679
+        }
+    },
+    {
+        "id": 18,
+        "title": "MBJ Women's Solid Short Sleeve Boat Neck V ",
+        "price": 9.85,
+        "description": "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_t.png",
+        "rating": {
+            "rate": 4.7,
+            "count": 130
+        }
+    },
+    {
+        "id": 19,
+        "title": "Opna Women's Short Sleeve Moisture",
+        "price": 7.95,
+        "description": "100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_t.png",
+        "rating": {
+            "rate": 4.5,
+            "count": 146
+        }
+    },
+    {
+        "id": 20,
+        "title": "DANVOUY Womens T Shirt Casual Cotton Short",
+        "price": 12.99,
+        "description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_t.png",
+        "rating": {
+            "rate": 3.6,
+            "count": 145
+        }
+    }
+]
+[
+    {
+        "id": 1,
+        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "price": 109.95,
+        "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 2,
+        "title": "Mens Casual Premium Slim Fit T-Shirts ",
+        "price": 22.3,
+        "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_t.png",
+        "rating": {
+            "rate": 4.1,
+            "count": 259
+        }
+    },
+    {
+        "id": 3,
+        "title": "Mens Cotton Jacket",
+        "price": 55.99,
+        "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_t.png",
+        "rating": {
+            "rate": 4.7,
+            "count": 500
+        }
+    },
+    {
+        "id": 4,
+        "title": "Mens Casual Slim Fit",
+        "price": 15.99,
+        "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_t.png",
+        "rating": {
+            "rate": 2.1,
+            "count": 430
+        }
+    },
+    {
+        "id": 5,
+        "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+        "price": 695,
+        "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_t.png",
+        "rating": {
+            "rate": 4.6,
+            "count": 400
+        }
+    },
+    {
+        "id": 6,
+        "title": "Solid Gold Petite Micropave ",
+        "price": 168,
+        "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_t.png",
+        "rating": {
+            "rate": 3.9,
+            "count": 70
+        }
+    },
+    {
+        "id": 7,
+        "title": "White Gold Plated Princess",
+        "price": 9.99,
+        "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_t.png",
+        "rating": {
+            "rate": 3,
+            "count": 400
+        }
+    },
+    {
+        "id": 8,
+        "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+        "price": 10.99,
+        "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_t.png",
+        "rating": {
+            "rate": 1.9,
+            "count": 100
+        }
+    },
+    {
+        "id": 9,
+        "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
+        "price": 64,
+        "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_t.png",
+        "rating": {
+            "rate": 3.3,
+            "count": 203
+        }
+    },
+    {
+        "id": 10,
+        "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+        "price": 109,
+        "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_t.png",
+        "rating": {
+            "rate": 2.9,
+            "count": 470
+        }
+    },
+    {
+        "id": 11,
+        "title": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
+        "price": 109,
+        "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_t.png",
+        "rating": {
+            "rate": 4.8,
+            "count": 319
+        }
+    },
+    {
+        "id": 12,
+        "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+        "price": 114,
+        "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_t.png",
+        "rating": {
+            "rate": 4.8,
+            "count": 400
+        }
+    },
+    {
+        "id": 13,
+        "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+        "price": 599,
+        "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_t.png",
+        "rating": {
+            "rate": 2.9,
+            "count": 250
+        }
+    },
+    {
+        "id": 14,
+        "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
+        "price": 999.99,
+        "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_t.png",
+        "rating": {
+            "rate": 2.2,
+            "count": 140
+        }
+    },
+    {
+        "id": 15,
+        "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+        "price": 56.99,
+        "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_t.png",
+        "rating": {
+            "rate": 2.6,
+            "count": 235
+        }
+    },
+    {
+        "id": 16,
+        "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+        "price": 29.95,
+        "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_t.png",
+        "rating": {
+            "rate": 2.9,
+            "count": 340
+        }
+    },
+    {
+        "id": 17,
+        "title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
+        "price": 39.99,
+        "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2t.png",
+        "rating": {
+            "rate": 3.8,
+            "count": 679
+        }
+    },
+    {
+        "id": 18,
+        "title": "MBJ Women's Solid Short Sleeve Boat Neck V ",
+        "price": 9.85,
+        "description": "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_t.png",
+        "rating": {
+            "rate": 4.7,
+            "count": 130
+        }
+    },
+    {
+        "id": 19,
+        "title": "Opna Women's Short Sleeve Moisture",
+        "price": 7.95,
+        "description": "100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_t.png",
+        "rating": {
+            "rate": 4.5,
+            "count": 146
+        }
+    },
+    {
+        "id": 20,
+        "title": "DANVOUY Womens T Shirt Casual Cotton Short",
+        "price": 12.99,
+        "description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_t.png",
+        "rating": {
+            "rate": 3.6,
+            "count": 145
+        }
+    }
+]
+2026-05-12T17:50:09.677-04:00  INFO 7712 --- [           main] x.s.common.AbstractCommonRequestService  : [
+    {
+        "id": 1,
+        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "price": 109.95,
+        "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 2,
+        "title": "Mens Casual Premium Slim Fit T-Shirts ",
+        "price": 22.3,
+        "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_t.png",
+        "rating": {
+            "rate": 4.1,
+            "count": 259
+        }
+    },
+    {
+        "id": 3,
+        "title": "Mens Cotton Jacket",
+        "price": 55.99,
+        "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_t.png",
+        "rating": {
+            "rate": 4.7,
+            "count": 500
+        }
+    },
+    {
+        "id": 4,
+        "title": "Mens Casual Slim Fit",
+        "price": 15.99,
+        "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_t.png",
+        "rating": {
+            "rate": 2.1,
+            "count": 430
+        }
+    },
+    {
+        "id": 5,
+        "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+        "price": 695,
+        "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_t.png",
+        "rating": {
+            "rate": 4.6,
+            "count": 400
+        }
+    },
+    {
+        "id": 6,
+        "title": "Solid Gold Petite Micropave ",
+        "price": 168,
+        "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_t.png",
+        "rating": {
+            "rate": 3.9,
+            "count": 70
+        }
+    },
+    {
+        "id": 7,
+        "title": "White Gold Plated Princess",
+        "price": 9.99,
+        "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_t.png",
+        "rating": {
+            "rate": 3,
+            "count": 400
+        }
+    },
+    {
+        "id": 8,
+        "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+        "price": 10.99,
+        "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_t.png",
+        "rating": {
+            "rate": 1.9,
+            "count": 100
+        }
+    },
+    {
+        "id": 9,
+        "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
+        "price": 64,
+        "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_t.png",
+        "rating": {
+            "rate": 3.3,
+            "count": 203
+        }
+    },
+    {
+        "id": 10,
+        "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+        "price": 109,
+        "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_t.png",
+        "rating": {
+            "rate": 2.9,
+            "count": 470
+        }
+    },
+    {
+        "id": 11,
+        "title": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
+        "price": 109,
+        "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_t.png",
+        "rating": {
+            "rate": 4.8,
+            "count": 319
+        }
+    },
+    {
+        "id": 12,
+        "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+        "price": 114,
+        "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_t.png",
+        "rating": {
+            "rate": 4.8,
+            "count": 400
+        }
+    },
+    {
+        "id": 13,
+        "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+        "price": 599,
+        "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_t.png",
+        "rating": {
+            "rate": 2.9,
+            "count": 250
+        }
+    },
+    {
+        "id": 14,
+        "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
+        "price": 999.99,
+        "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_t.png",
+        "rating": {
+            "rate": 2.2,
+            "count": 140
+        }
+    },
+    {
+        "id": 15,
+        "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+        "price": 56.99,
+        "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_t.png",
+        "rating": {
+            "rate": 2.6,
+            "count": 235
+        }
+    },
+    {
+        "id": 16,
+        "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+        "price": 29.95,
+        "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_t.png",
+        "rating": {
+            "rate": 2.9,
+            "count": 340
+        }
+    },
+    {
+        "id": 17,
+        "title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
+        "price": 39.99,
+        "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2t.png",
+        "rating": {
+            "rate": 3.8,
+            "count": 679
+        }
+    },
+    {
+        "id": 18,
+        "title": "MBJ Women's Solid Short Sleeve Boat Neck V ",
+        "price": 9.85,
+        "description": "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_t.png",
+        "rating": {
+            "rate": 4.7,
+            "count": 130
+        }
+    },
+    {
+        "id": 19,
+        "title": "Opna Women's Short Sleeve Moisture",
+        "price": 7.95,
+        "description": "100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_t.png",
+        "rating": {
+            "rate": 4.5,
+            "count": 146
+        }
+    },
+    {
+        "id": 20,
+        "title": "DANVOUY Womens T Shirt Casual Cotton Short",
+        "price": 12.99,
+        "description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_t.png",
+        "rating": {
+            "rate": 3.6,
+            "count": 145
+        }
+    }
+]
+Executed step: client creates a new product
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mclient creates a new product&amp#27;[39m                        &amp#27;[90m# xohairtoo.stepDefinitions.FakeStoreApiSteps.client_creates_a_new_product()&amp#27;[39m
+Executed step: product is successfully added
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mproduct is successfully added&amp#27;[39m                      &amp#27;[90m# xohairtoo.stepDefinitions.FakeStoreApiSteps.client_is_successfully_added()&amp#27;[39m
+This the @After setup step getting executed
+2026-05-12T17:50:09.679-04:00  INFO 7712 --- [           main] xohairtoo.stepDefinitions.TestSetup      : This the @After setup step getting executed
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Successful user registration&quot;, &quot;User Registration&quot;](3)" classname="xohairtoo.TestRunner" time="0.012">
+    <system-out><![CDATA[
+@Demo
+&amp#27;[1mScenario:&amp#27;[22m Successful user registration                               &amp#27;[90m# src/test/resources/features/UserRegistration.feature:4&amp#27;[39m
+This the @Before setup step getting executed
+2026-05-12T17:50:09.686-04:00  INFO 7712 --- [           main] xohairtoo.stepDefinitions.TestSetup      : This the @Before setup step getting executed
+the_client_is_ready_to_register_a_user
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mclient is ready to register a user&amp#27;[39m                         &amp#27;[90m# xohairtoo.stepDefinitions.UserRegistrationSteps.the_client_is_ready_to_register_a_user()&amp#27;[39m
+the_client_submits_a_post_request_with_details
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mclient submits a POST request to &amp#27;[1m"/api/users"&amp#27;[22m with details:&amp#27;[39m &amp#27;[90m# xohairtoo.stepDefinitions.UserRegistrationSteps.the_client_submits_a_post_request_with_details(java.lang.String,io.cucumber.datatable.DataTable)&amp#27;[39m
+      | email            | password     |
+      | test@example.com | SecurePwd123 |
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mresponse status code should be &amp#27;[1m201&amp#27;[22m&amp#27;[39m                          &amp#27;[90m# xohairtoo.stepDefinitions.UserRegistrationSteps.the_response_status_code_should_be(int)&amp#27;[39m
+a_new_user_should_exist_with_email
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mnew user should exist with email &amp#27;[1m"test@example.com"&amp#27;[22m&amp#27;[39m          &amp#27;[90m# xohairtoo.stepDefinitions.UserRegistrationSteps.a_new_user_should_exist_with_email(java.lang.String)&amp#27;[39m
+This the @After setup step getting executed
+2026-05-12T17:50:09.724-04:00  INFO 7712 --- [           main] xohairtoo.stepDefinitions.TestSetup      : This the @After setup step getting executed
+]]></system-out>
+  </testcase>
+</testsuite>
